@@ -1,0 +1,60 @@
+<project name="CodeMan" default="dist" basedir=".">
+
+<!-- This is the Ant build script.
+     Written using Ant 1.6.1 (http://ant.apache.org/).
+-->
+
+  <property name="app.name"       value="codeman"/>
+  <property name="src.dir"        value="src"/>
+  <property name="deploy.home"    value="./classes"/>
+  <property name="dist.jar"       value="${app.name}.jar"/>
+  
+  <!-- Create the output directories for the classes -->
+  <target name="prepare" description="Create classes directory">
+    <mkdir dir="${deploy.home}"/>
+  </target>
+
+  <!-- Delete the output directories for the classes -->
+  <target name="clean" description="Delete classes directory">
+    <delete dir="${deploy.home}"/>
+  </target>
+
+  <!-- Compile the source code (in 'src') and store in 'classes' -->
+  <target name="compile" depends="prepare" description="Compile the source code">
+    <javac srcdir="${src.dir}" destdir="${deploy.home}" target="1.6"
+           debug="on" optimize="on" deprecation="off" includeantruntime="false" >
+      <classpath>
+         <pathelement path="${deploy.home}"/>
+        <pathelement path="libs/lucene-core-4.2.0.jar"/>
+        <pathelement path="libs/lucene-analyzers-common-4.2.0.jar"/>
+        <pathelement path="libs/lucene-queryparser-4.2.0.jar"/>
+      	<pathelement path="libs/rsyntaxtextarea.jar"/>
+        <pathelement path="libs/jgoodies-common-1.6.0.jar"/>
+        <pathelement path="libs/jgoodies-looks-2.5.3.jar"/>
+      </classpath>
+    </javac>
+  </target>
+
+  <!-- Generate the jar file -->
+  <target name="dist" depends="compile" description="Generate the jar file">
+    <jar destfile="./${dist.jar}">
+      <fileset dir="${deploy.home}"/>
+      <fileset dir="data"/>
+      <manifest>
+        <attribute name="Built-By" value="Mike Wallace"/>
+        <attribute name="Main-Class" value="io.miti.codeman.gui.CodeMan"/>
+        <attribute name="Class-Path" value="lucene-core-4.2.0.jar lucene-analyzers-common-4.2.0.jar lucene-queryparser-4.2.0.jar rsyntaxtextarea.jar jgoodies-common-1.6.0.jar jgoodies-looks-2.5.3.jar"/>
+      </manifest>
+    </jar>
+  </target>
+
+  <!-- Delete the generated class files and compile all of the code -->
+  <target name="all" depends="clean,prepare"
+          description="Run the clean, prepare and compile targets"/>
+  
+  <!-- Zip up the source code -->
+  <target name="zipsource" description="Create a zip file of the source code">
+    <zip basedir="." destfile="./${app.name}-src.zip"
+     includes="build.xml, ${src.dir}/**, data/**" />
+  </target>
+</project>

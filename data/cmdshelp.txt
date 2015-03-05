@@ -1,0 +1,20 @@
+quit
+help
+help <start of a command>
+clear
+exit
+version
+debug <on | off>
+date <number>
+list endpoints
+list endpoints <query>
+list files
+list files <query>
+search <query>
+open file <file>
+open result # - open a result from search, list endpoints or list files
+query result # - print info on the result number
+cat result #
+cat file <file>
+zip info
+searchex - open a Search dialog

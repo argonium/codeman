@@ -1,0 +1,20 @@
+quit: quit
+partialHelp: help _s
+help: help
+clear: clear
+quit: exit
+showVersion: version
+setDebug: debug _s
+showDate: date _l
+listEndpoints: list endpoints
+searchEndpoints: list endpoints _s
+listFiles: list files
+searchFiles: list files _s
+search: search _s
+openFile: open file _s
+openResultNum: open result _n
+queryResultNum: query result _n
+catFile: cat file _s
+catResultNum: cat result _n
+zipInfo: zip info
+searchex: searchex
