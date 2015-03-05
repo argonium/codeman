@@ -1,13 +1,4 @@
-/**
- * @(#)Interpreter.java
- * 
- * Created on Dec 18, 2006
- *
- * Copyright 2006 MobilVox, Inc. All rights reserved.
- * MOBILVOX PROPRIETARY/CONFIDENTIAL.
- */
-
-package com.nexagis.codeman.interpret;
+package io.miti.codeman.interpret;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
@@ -17,9 +8,9 @@ import java.util.List;
 
 import javax.swing.SwingUtilities;
 
-import com.nexagis.codeman.gui.CodeMan;
-import com.nexagis.codeman.util.Content;
-import com.nexagis.codeman.util.IContentHandler;
+import io.miti.codeman.gui.CodeMan;
+import io.miti.codeman.util.Content;
+import io.miti.codeman.util.IContentHandler;
 
 /**
  * The command interpreter.

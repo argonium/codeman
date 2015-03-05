@@ -1,13 +1,4 @@
-/**
- * @(#)WindowState.java
- * 
- * Created on Dec 18, 2006
- *
- * Copyright 2006 MobilVox, Inc. All rights reserved.
- * MOBILVOX PROPRIETARY/CONFIDENTIAL.
- */
-
-package com.nexagis.codeman.util;
+package io.miti.codeman.util;
 
 import java.awt.Dimension;
 import java.awt.Point;

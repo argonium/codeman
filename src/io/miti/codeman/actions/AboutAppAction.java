@@ -1,7 +1,4 @@
-/**
- * 
- */
-package com.nexagis.codeman.actions;
+package io.miti.codeman.actions;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.KeyEvent;
@@ -10,7 +7,7 @@ import javax.swing.AbstractAction;
 import javax.swing.Icon;
 import javax.swing.JOptionPane;
 
-import com.nexagis.codeman.gui.CodeMan;
+import io.miti.codeman.gui.CodeMan;
 
 /**
  * @author mike

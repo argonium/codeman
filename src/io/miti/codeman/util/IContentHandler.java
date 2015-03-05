@@ -1,13 +1,4 @@
-/**
- * @(#)IContentHandler.java
- *
- * Created on Oct 01, 2009
- *
- * Copyright 2009 MobilVox, Inc. All rights reserved.
- * MOBILVOX PROPRIETARY/CONFIDENTIAL.
- */
-
-package com.nexagis.codeman.util;
+package io.miti.codeman.util;
 
 /**
  * Interface for a class to handle a line read from a content file.

@@ -1,10 +1,10 @@
-package com.nexagis.codeman.model;
+package io.miti.codeman.model;
 
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-import com.nexagis.codeman.managers.ZipManager;
+import io.miti.codeman.managers.ZipManager;
 
 public final class FileSubset
 {

@@ -1,17 +1,7 @@
-/*
- * @(#)SimpleInterpreter.java
- * 
- * Created on Mar 03, 2009
- *
- * Copyright 2009 MobilVox, Inc. All rights reserved.
- * MOBILVOX PROPRIETARY/CONFIDENTIAL.
- */
-
-package com.nexagis.codeman.console;
+package io.miti.codeman.console;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
-
 import javax.swing.JTextArea;
 
 /**

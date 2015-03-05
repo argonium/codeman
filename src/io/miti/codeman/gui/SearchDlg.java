@@ -1,4 +1,4 @@
-package com.nexagis.codeman.gui;
+package io.miti.codeman.gui;
 
 import java.awt.BorderLayout;
 import java.awt.FlowLayout;
@@ -21,11 +21,11 @@ import javax.swing.JPanel;
 import javax.swing.JTextField;
 import javax.swing.SpringLayout;
 
-import com.nexagis.codeman.domain.SearchResult;
-import com.nexagis.codeman.managers.ZipManager;
-import com.nexagis.codeman.util.SpringUtilities;
-import com.nexagis.codeman.util.Utility;
-import com.nexagis.codeman.util.WildcardFilter;
+import io.miti.codeman.domain.SearchResult;
+import io.miti.codeman.managers.ZipManager;
+import io.miti.codeman.util.SpringUtilities;
+import io.miti.codeman.util.Utility;
+import io.miti.codeman.util.WildcardFilter;
 
 public class SearchDlg extends JDialog
 {

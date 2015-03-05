@@ -1,13 +1,4 @@
-/**
- * @(#)SwingShell.java
- * 
- * Created on Dec 18, 2006
- *
- * Copyright 2006 MobilVox, Inc. All rights reserved.
- * MOBILVOX PROPRIETARY/CONFIDENTIAL.
- */
-
-package com.nexagis.codeman.gui;
+package io.miti.codeman.gui;
 
 import java.awt.BorderLayout;
 import java.awt.Color;
@@ -21,13 +12,13 @@ import javax.swing.border.CompoundBorder;
 import javax.swing.border.EmptyBorder;
 import javax.swing.border.SoftBevelBorder;
 
-import com.nexagis.codeman.managers.ListViewManager;
-import com.nexagis.codeman.managers.MenuBarManager;
-import com.nexagis.codeman.managers.TabViewManager;
-import com.nexagis.codeman.managers.ZipManager;
-import com.nexagis.codeman.util.Content;
-import com.nexagis.codeman.util.Utility;
-import com.nexagis.codeman.util.WindowState;
+import io.miti.codeman.managers.ListViewManager;
+import io.miti.codeman.managers.MenuBarManager;
+import io.miti.codeman.managers.TabViewManager;
+import io.miti.codeman.managers.ZipManager;
+import io.miti.codeman.util.Content;
+import io.miti.codeman.util.Utility;
+import io.miti.codeman.util.WindowState;
 
 /**
  * This is the main class for the application.

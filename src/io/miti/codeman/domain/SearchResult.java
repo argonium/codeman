@@ -1,4 +1,4 @@
-package com.nexagis.codeman.domain;
+package io.miti.codeman.domain;
 
 import java.text.DecimalFormat;
 

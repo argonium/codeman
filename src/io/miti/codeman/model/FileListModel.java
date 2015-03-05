@@ -1,8 +1,8 @@
-package com.nexagis.codeman.model;
+package io.miti.codeman.model;
 
 import javax.swing.AbstractListModel;
 
-import com.nexagis.codeman.gui.CodeMan;
+import io.miti.codeman.gui.CodeMan;
 
 public final class FileListModel extends AbstractListModel
 {

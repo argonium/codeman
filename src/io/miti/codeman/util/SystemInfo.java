@@ -1,13 +1,4 @@
-/**
- * @(#)SystemInfo.java
- * 
- * Created on Feb 16, 2007
- *
- * Copyright 2007 MobilVox, Inc. All rights reserved.
- * MOBILVOX PROPRIETARY/CONFIDENTIAL.
- */
-
-package com.nexagis.codeman.util;
+package io.miti.codeman.util;
 
 /**
  * Determine information about the virtual machine.

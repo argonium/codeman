@@ -1,4 +1,4 @@
-package com.nexagis.codeman.actions;
+package io.miti.codeman.actions;
 
 import java.awt.Point;
 import java.awt.event.ActionEvent;
@@ -10,10 +10,10 @@ import javax.swing.JList;
 import javax.swing.JMenuItem;
 import javax.swing.JPopupMenu;
 
-import com.nexagis.codeman.managers.TabViewManager;
-import com.nexagis.codeman.managers.ZipManager;
-import com.nexagis.codeman.model.FileListModel;
-import com.nexagis.codeman.util.Utility;
+import io.miti.codeman.managers.TabViewManager;
+import io.miti.codeman.managers.ZipManager;
+import io.miti.codeman.model.FileListModel;
+import io.miti.codeman.util.Utility;
 
 public final class MousePopupListener extends MouseAdapter
 {

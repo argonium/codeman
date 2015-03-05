@@ -1,4 +1,4 @@
-package com.nexagis.codeman.util;
+package io.miti.codeman.util;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -26,7 +26,7 @@ import org.apache.lucene.store.Directory;
 import org.apache.lucene.store.SimpleFSDirectory;
 import org.apache.lucene.util.Version;
 
-import com.nexagis.codeman.domain.SearchResult;
+import io.miti.codeman.domain.SearchResult;
 
 public final class ZipIndexer
 {

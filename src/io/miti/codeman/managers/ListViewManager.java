@@ -1,7 +1,4 @@
-/**
- * 
- */
-package com.nexagis.codeman.managers;
+package io.miti.codeman.managers;
 
 import java.awt.BorderLayout;
 import java.awt.event.ActionEvent;
@@ -15,10 +12,10 @@ import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JTextField;
 
-import com.nexagis.codeman.actions.MousePopupListener;
-import com.nexagis.codeman.model.FileListModel;
-import com.nexagis.codeman.util.Content;
-import com.nexagis.codeman.util.StripeRenderer;
+import io.miti.codeman.actions.MousePopupListener;
+import io.miti.codeman.model.FileListModel;
+import io.miti.codeman.util.Content;
+import io.miti.codeman.util.StripeRenderer;
 
 public final class ListViewManager
 {

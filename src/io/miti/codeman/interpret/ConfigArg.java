@@ -1,13 +1,4 @@
-/**
- * @(#)ConfigArg.java
- * 
- * Created on Nov 10, 2009
- *
- * Copyright 2009 MobilVox, Inc. All rights reserved.
- * MOBILVOX PROPRIETARY/CONFIDENTIAL.
- */
-
-package com.nexagis.codeman.interpret;
+package io.miti.codeman.interpret;
 
 /**
  * A class describing each element of a config argument.

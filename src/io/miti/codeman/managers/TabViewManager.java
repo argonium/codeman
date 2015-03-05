@@ -1,7 +1,4 @@
-/**
- * 
- */
-package com.nexagis.codeman.managers;
+package io.miti.codeman.managers;
 
 import java.awt.BorderLayout;
 import java.awt.Color;
@@ -31,12 +28,12 @@ import org.fife.ui.rtextarea.RTextScrollPane;
 import org.fife.ui.rtextarea.SearchContext;
 import org.fife.ui.rtextarea.SearchEngine;
 
-import com.nexagis.codeman.actions.TabHeaderPopupMenu;
-import com.nexagis.codeman.console.CmdLineInterpreter;
-import com.nexagis.codeman.console.JConsole;
-import com.nexagis.codeman.gui.CodeMan;
-import com.nexagis.codeman.util.StyleTyper;
-import com.nexagis.codeman.util.Utility;
+import io.miti.codeman.actions.TabHeaderPopupMenu;
+import io.miti.codeman.console.CmdLineInterpreter;
+import io.miti.codeman.console.JConsole;
+import io.miti.codeman.gui.CodeMan;
+import io.miti.codeman.util.StyleTyper;
+import io.miti.codeman.util.Utility;
 
 /**
  * The manager for the tabbed view.

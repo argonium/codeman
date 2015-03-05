@@ -1,4 +1,4 @@
-package com.nexagis.codeman.actions;
+package io.miti.codeman.actions;
 
 import java.awt.Point;
 import java.awt.event.ActionEvent;
@@ -7,7 +7,7 @@ import java.awt.event.ActionListener;
 import javax.swing.JMenuItem;
 import javax.swing.JPopupMenu;
 
-import com.nexagis.codeman.managers.TabViewManager;
+import io.miti.codeman.managers.TabViewManager;
 
 public class TabHeaderPopupMenu extends JPopupMenu
 {

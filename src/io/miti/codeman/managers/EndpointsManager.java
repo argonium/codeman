@@ -1,7 +1,4 @@
-/**
- * 
- */
-package com.nexagis.codeman.managers;
+package io.miti.codeman.managers;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -21,10 +18,10 @@ import java.util.zip.ZipEntry;
 import java.util.zip.ZipException;
 import java.util.zip.ZipInputStream;
 
-import com.nexagis.codeman.domain.Endpoint;
-import com.nexagis.codeman.util.CSVParser;
-import com.nexagis.codeman.util.Logger;
-import com.nexagis.codeman.util.ReqMapParser;
+import io.miti.codeman.domain.Endpoint;
+import io.miti.codeman.util.CSVParser;
+import io.miti.codeman.util.Logger;
+import io.miti.codeman.util.ReqMapParser;
 
 /**
  * Class to generate and manage the list of endpoints for the zip file.

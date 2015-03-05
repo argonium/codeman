@@ -1,4 +1,4 @@
-package com.nexagis.codeman.util;
+package io.miti.codeman.util;
 
 import java.util.HashMap;
 import java.util.HashSet;

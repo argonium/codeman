@@ -1,7 +1,4 @@
-/**
- * 
- */
-package com.nexagis.codeman.actions;
+package io.miti.codeman.actions;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.KeyEvent;
@@ -11,8 +8,8 @@ import javax.swing.AbstractAction;
 import javax.swing.Icon;
 import javax.swing.JFileChooser;
 
-import com.nexagis.codeman.gui.CodeMan;
-import com.nexagis.codeman.managers.ZipManager;
+import io.miti.codeman.gui.CodeMan;
+import io.miti.codeman.managers.ZipManager;
 
 public final class OpenZipAction extends AbstractAction
 {

@@ -1,7 +1,4 @@
-/**
- * 
- */
-package com.nexagis.codeman.actions;
+package io.miti.codeman.actions;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.KeyEvent;
@@ -12,9 +9,9 @@ import javax.swing.Icon;
 import javax.swing.JFileChooser;
 import javax.swing.filechooser.FileFilter;
 
-import com.nexagis.codeman.filters.ZipFilter;
-import com.nexagis.codeman.gui.CodeMan;
-import com.nexagis.codeman.managers.ZipManager;
+import io.miti.codeman.filters.ZipFilter;
+import io.miti.codeman.gui.CodeMan;
+import io.miti.codeman.managers.ZipManager;
 
 /**
  * @author mike

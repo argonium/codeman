@@ -1,7 +1,4 @@
-/**
- * 
- */
-package com.nexagis.codeman.model;
+package io.miti.codeman.model;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -2,7 +2,7 @@
  * The handler for commands entered in the console by the user.
  */
 
-package com.nexagis.codeman.console;
+package io.miti.codeman.console;
 
 import java.io.File;
 import java.lang.reflect.InvocationTargetException;
@@ -17,20 +17,20 @@ import java.util.List;
 import javax.swing.JTextArea;
 import javax.swing.SwingUtilities;
 
-import com.nexagis.codeman.domain.Endpoint;
-import com.nexagis.codeman.domain.SearchResult;
-import com.nexagis.codeman.gui.CodeMan;
-import com.nexagis.codeman.gui.SearchDlg;
-import com.nexagis.codeman.interpret.ConfigArg;
-import com.nexagis.codeman.interpret.ConfigParser;
-import com.nexagis.codeman.interpret.LineParser;
-import com.nexagis.codeman.managers.EndpointsManager;
-import com.nexagis.codeman.managers.TabViewManager;
-import com.nexagis.codeman.managers.ZipManager;
-import com.nexagis.codeman.util.Content;
-import com.nexagis.codeman.util.IContentHandler;
-import com.nexagis.codeman.util.ListFormatter;
-import com.nexagis.codeman.util.Logger;
+import io.miti.codeman.domain.Endpoint;
+import io.miti.codeman.domain.SearchResult;
+import io.miti.codeman.gui.CodeMan;
+import io.miti.codeman.gui.SearchDlg;
+import io.miti.codeman.interpret.ConfigArg;
+import io.miti.codeman.interpret.ConfigParser;
+import io.miti.codeman.interpret.LineParser;
+import io.miti.codeman.managers.EndpointsManager;
+import io.miti.codeman.managers.TabViewManager;
+import io.miti.codeman.managers.ZipManager;
+import io.miti.codeman.util.Content;
+import io.miti.codeman.util.IContentHandler;
+import io.miti.codeman.util.ListFormatter;
+import io.miti.codeman.util.Logger;
 
 /**
  * Processes commands entered by the user.

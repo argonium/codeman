@@ -1,13 +1,4 @@
-/**
- * @(#)Logger.java
- * 
- * Created on Apr 30, 2007
- *
- * Copyright 2007 MobilVox, Inc. All rights reserved.
- * MOBILVOX PROPRIETARY/CONFIDENTIAL.
- */
-
-package com.nexagis.codeman.util;
+package io.miti.codeman.util;
 
 import java.io.BufferedWriter;
 import java.io.File;

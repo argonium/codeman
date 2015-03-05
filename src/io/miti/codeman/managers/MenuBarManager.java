@@ -1,4 +1,4 @@
-package com.nexagis.codeman.managers;
+package io.miti.codeman.managers;
 
 import java.awt.event.KeyEvent;
 
@@ -6,13 +6,13 @@ import javax.swing.JMenu;
 import javax.swing.JMenuBar;
 import javax.swing.JMenuItem;
 
-import com.nexagis.codeman.actions.AboutAppAction;
-import com.nexagis.codeman.actions.ConsoleViewAction;
-import com.nexagis.codeman.actions.ExitAction;
-import com.nexagis.codeman.actions.IndexZipAction;
-import com.nexagis.codeman.actions.InstallZipAction;
-import com.nexagis.codeman.actions.OpenZipAction;
-import com.nexagis.codeman.actions.TextEditorAction;
+import io.miti.codeman.actions.AboutAppAction;
+import io.miti.codeman.actions.ConsoleViewAction;
+import io.miti.codeman.actions.ExitAction;
+import io.miti.codeman.actions.IndexZipAction;
+import io.miti.codeman.actions.InstallZipAction;
+import io.miti.codeman.actions.OpenZipAction;
+import io.miti.codeman.actions.TextEditorAction;
 
 public final class MenuBarManager
 {

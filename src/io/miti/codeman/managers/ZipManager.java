@@ -1,4 +1,4 @@
-package com.nexagis.codeman.managers;
+package io.miti.codeman.managers;
 
 import java.awt.Cursor;
 import java.io.File;
@@ -18,12 +18,12 @@ import java.util.zip.ZipInputStream;
 import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 
-import com.nexagis.codeman.domain.SearchResult;
-import com.nexagis.codeman.gui.CodeMan;
-import com.nexagis.codeman.util.Logger;
-import com.nexagis.codeman.util.Utility;
-import com.nexagis.codeman.util.WindowState;
-import com.nexagis.codeman.util.ZipIndexer;
+import io.miti.codeman.domain.SearchResult;
+import io.miti.codeman.gui.CodeMan;
+import io.miti.codeman.util.Logger;
+import io.miti.codeman.util.Utility;
+import io.miti.codeman.util.WindowState;
+import io.miti.codeman.util.ZipIndexer;
 
 public final class ZipManager
 {

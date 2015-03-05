@@ -1,11 +1,4 @@
-/*
- * Constants.java
- *
- * Copyright 2004 MobilVox, Inc. All rights reserved.
- * MOBILVOX PROPRIETARY/CONFIDENTIAL.
- */
-
-package com.nexagis.codeman.util;
+package io.miti.codeman.util;
 
 /**
  * This class contains constants used by the other classes for

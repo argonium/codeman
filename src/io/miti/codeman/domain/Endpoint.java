@@ -1,6 +1,6 @@
-package com.nexagis.codeman.domain;
+package io.miti.codeman.domain;
 
-import com.nexagis.codeman.util.Utility;
+import io.miti.codeman.util.Utility;
 
 public final class Endpoint implements Comparable<Endpoint>
 {

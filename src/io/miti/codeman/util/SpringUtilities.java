@@ -29,7 +29,7 @@
  * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */ 
 
-package com.nexagis.codeman.util;
+package io.miti.codeman.util;
 
 import java.awt.Component;
 import java.awt.Container;

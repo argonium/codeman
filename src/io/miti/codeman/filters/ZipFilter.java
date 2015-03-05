@@ -1,4 +1,4 @@
-package com.nexagis.codeman.filters;
+package io.miti.codeman.filters;
 
 import java.io.File;
 

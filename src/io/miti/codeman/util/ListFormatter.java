@@ -1,7 +1,4 @@
-/**
- * 
- */
-package com.nexagis.codeman.util;
+package io.miti.codeman.util;
 
 import java.lang.reflect.Field;
 import java.math.BigDecimal;
