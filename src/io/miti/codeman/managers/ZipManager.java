@@ -371,6 +371,7 @@ public final class ZipManager
   /**
    * Generate the endpoints file.
    */
+  @SuppressWarnings("unused")
   private void generateEndpoints()
   {
     // Generate the endpoints.txt file
@@ -582,8 +583,10 @@ public final class ZipManager
       {
         // Get the text from the file
         InputStream is = zip.getInputStream(entry);
-        java.util.Scanner s = new java.util.Scanner(is).useDelimiter("\\A");
+        final java.util.Scanner s = new java.util.Scanner(is);
+        s.useDelimiter("\\A");
         text = s.hasNext() ? s.next() : "";
+        s.close();
         is.close();
       }
       

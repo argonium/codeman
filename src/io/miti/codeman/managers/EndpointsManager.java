@@ -106,6 +106,8 @@ public final class EndpointsManager
           line = br.readLine();
         }
         
+        br.close();
+        
         // Check the file for endpoints
         addEndpoints(lines, name, points);
       }
