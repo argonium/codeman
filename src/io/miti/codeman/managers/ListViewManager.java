@@ -29,7 +29,7 @@ public final class ListViewManager
   private JTextField tfSearch = null;
   
   /** The list. */
-  private JList listFiles = null;
+  private JList<String> listFiles = null;
   
   /** The button to clear the search filter. */
   private JButton btnClear = null;
@@ -99,7 +99,7 @@ public final class ListViewManager
     topPanel.add(btnClear, BorderLayout.EAST);
     
     // Build the panel in the middle of the view (for listing files)
-    listFiles = new JList();
+    listFiles = new JList<String>();
     listFiles.setModel(new FileListModel());
     listFiles.setCellRenderer(new StripeRenderer());
     
