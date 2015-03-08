@@ -115,6 +115,8 @@ public final class CmdInterpreter implements Interpreter
         text.append("\nUnknown command: " + cmd + "\n");
       }
     }
+    
+    scan.close();
   }
   
   
