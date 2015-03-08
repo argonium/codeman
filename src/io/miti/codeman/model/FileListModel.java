@@ -4,7 +4,7 @@ import javax.swing.AbstractListModel;
 
 import io.miti.codeman.gui.CodeMan;
 
-public final class FileListModel extends AbstractListModel<Object>
+public final class FileListModel extends AbstractListModel
 {
   private static final long serialVersionUID = 1L;
   
