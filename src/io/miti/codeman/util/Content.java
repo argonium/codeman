@@ -1147,6 +1147,8 @@ public final class Content
           names.add(name);
         }
       }
+      
+      jar.close();
     }
     catch (URISyntaxException e)
     {

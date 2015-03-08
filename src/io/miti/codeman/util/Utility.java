@@ -924,7 +924,7 @@ public final class Utility
   
   public static String getDirNameFromZipEntry(String filename)
   {
-    final int len = filename.length();
+    // final int len = filename.length();
     int index = filename.lastIndexOf('/');
     if (index <= 0)
     {

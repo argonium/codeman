@@ -21,7 +21,7 @@ public final class StripeRenderer extends DefaultListCellRenderer
   }
 
   @Override
-  public Component getListCellRendererComponent(JList list, Object value,
+  public Component getListCellRendererComponent(JList<?> list, Object value,
                                                 int index, boolean isSelected,
                                                 boolean cellHasFocus)
   {
