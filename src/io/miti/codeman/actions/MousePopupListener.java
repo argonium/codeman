@@ -17,7 +17,7 @@ import io.miti.codeman.util.Utility;
 
 public final class MousePopupListener extends MouseAdapter
 {
-  private JList tableList = null;
+  private JList<String> tableList = null;
   private JPopupMenu menu = new JPopupMenu();
   private Point point = null;
   
@@ -38,7 +38,7 @@ public final class MousePopupListener extends MouseAdapter
    * @param tableData whether we're showing table or column data
    * @param dataList the JList for this popup menu
    */
-  public MousePopupListener(final JList dataList)
+  public MousePopupListener(final JList<String> dataList)
   {
     tableList = dataList;
     buildPopup();
