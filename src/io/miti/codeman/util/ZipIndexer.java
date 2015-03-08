@@ -111,6 +111,11 @@ public final class ZipIndexer
   public List<SearchResult> queryIndex(final String term, final File indexDir)
   {
     List<SearchResult> results = new ArrayList<SearchResult>(10);
+	if (indexDir == null) {
+		System.err.println("The index directory parameter is null");
+		return results;
+	}
+	
     try
     {
       // Create the query object for searching the file contents
@@ -156,12 +161,12 @@ public final class ZipIndexer
    * 
    * @param args arguments to the app
    */
-  public static void main(final String[] args)
-  {
-    ZipIndexer zi = new ZipIndexer();
-    zi.indexZipFile("/home/mike/Downloads/pti-src.zip", new File("tempindex"));
-    System.out.println("Finished indexing.");
-    zi.queryIndex("excel AND controller", new File("tempindex"));
-    System.out.println("Finished searching.");
-  }
+//  public static void main(final String[] args)
+//  {
+//    ZipIndexer zi = new ZipIndexer();
+//    zi.indexZipFile("/home/mike/Downloads/pti-src.zip", new File("tempindex"));
+//    System.out.println("Finished indexing.");
+//    zi.queryIndex("excel AND controller", new File("tempindex"));
+//    System.out.println("Finished searching.");
+//  }
 }
