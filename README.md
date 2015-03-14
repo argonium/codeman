@@ -23,7 +23,7 @@ The console provides the following commands:
 * searchex - open a Search dialog
 * version
 * zip info
-* 
+
 The application uses the Lucene and RSyntaxTextArea libraries.
 
 To build the application, use Ant to run the command 'ant clean dist'.  This will produce codeman.jar.  To run it, copy the JAR files in the libs/ directory into the same directory as codeman.jar, and then use 'java -jar codeman.jar' to run the application, or double-click on codeman.jar from the desktop.
