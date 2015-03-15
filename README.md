@@ -1,7 +1,11 @@
 # CodeMan
 CodeMan is a Java GUI (Swing) application that makes it easy to manage zip files, so you can search the contents of files in the zip file and view the files and search results.
 
+![CodeMan](http://argonium.github.io/cm1.png)
+
 To prepare a zip file for use by CodeMan, select File | Install Zip... to select a local zip or JAR file.  The contents will be displayed in one panel, with a console available in a separate panel.
+
+![CodeMan](http://argonium.github.io/cm2.png)
 
 The console provides the following commands:
 
