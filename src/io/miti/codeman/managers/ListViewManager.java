@@ -13,9 +13,11 @@ import javax.swing.JScrollPane;
 import javax.swing.JTextField;
 
 import io.miti.codeman.actions.MousePopupListener;
+import io.miti.codeman.gui.CodeMan;
 import io.miti.codeman.model.FileListModel;
 import io.miti.codeman.util.Content;
 import io.miti.codeman.util.StripeRenderer;
+import io.miti.codeman.util.Utility;
 
 public final class ListViewManager
 {
@@ -138,7 +140,10 @@ public final class ListViewManager
     {
       btnClear.setEnabled(false);
       tfSearch.setEnabled(false);
+      tfSearch.setText("");
+      TabViewManager.getInstance().closeAllTabs();
       ((FileListModel) listFiles.getModel()).clearList();
+      CodeMan.getApp().frame.setTitle(Utility.getAppName());
     }
   }
 }
