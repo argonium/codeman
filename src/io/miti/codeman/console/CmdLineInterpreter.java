@@ -508,8 +508,6 @@ public final class CmdLineInterpreter implements Interpreter, IContentHandler
    */
   public boolean partialHelp(final Object[] args)
   {
-    // TODO Support multiple terms to search by
-    
     // Get the list of all commands from the cmds.txt file
     List<String> cmds = Content.getContent(Content.COMMANDS_HELP);
     

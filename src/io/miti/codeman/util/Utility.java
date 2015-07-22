@@ -407,7 +407,6 @@ public final class Utility
     LookAndFeelInfo[] lafs = javax.swing.UIManager.getInstalledLookAndFeels();
     for (LookAndFeelInfo laf : lafs)
     {
-      // TODO
       System.out.println(String.format("%s: %s", laf.getName(), laf.getClassName()));
     }
   }
