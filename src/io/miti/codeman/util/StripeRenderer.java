@@ -13,7 +13,7 @@ public final class StripeRenderer extends DefaultListCellRenderer
 
   private static final Color colorEvenRows = new Color(230, 230, 255);
   private static final Color colorOddRows  = new Color(255, 255, 255);
-  private static final Color colorSelected = new Color(0, 0, 230);
+  private static final Color colorSelected = new Color(0, 204, 102);
 
   public StripeRenderer()
   {
