@@ -97,7 +97,7 @@ public final class MenuBarManager
     JMenuItem itemNew = new JMenuItem(new InstallZipAction("Install Zip"));
     menuFile.add(itemNew);
     
-    JMenuItem itemOpen = new JMenuItem(new OpenZipAction("Open Zip"));
+    JMenuItem itemOpen = new JMenuItem(new OpenZipAction("Open Zip Folder"));
     menuFile.add(itemOpen);
     
     menuFile.addSeparator();
