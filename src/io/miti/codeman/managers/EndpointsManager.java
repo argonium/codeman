@@ -60,6 +60,17 @@ public final class EndpointsManager
   
   
   /**
+   * Return a reference to the output file.
+   * 
+   * @param homeDir the directory
+   * @return the File reference
+   */
+  public static File getOutputFile(final File homeDir) {
+    return new File(homeDir, "endpoints.txt");
+  }
+  
+  
+  /**
    * Generate the list of endpoints and save to a file.
    * 
    * @param zipfile the input zipfile
@@ -138,7 +149,7 @@ public final class EndpointsManager
    * @param points the list of endpoints
    * @param file the output file
    */
-  private void writeEndpoints(List<Endpoint> points, File file)
+  public void writeEndpoints(List<Endpoint> points, File file)
   {
     // Create the file
     BufferedWriter bw = null;
