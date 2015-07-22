@@ -238,7 +238,7 @@ public final class ZipManager
       files = null;
     }
     
-    // TODO Save the list of open tabs
+    // Update the view since a file was closed
     ListViewManager.getInstance().updateView();
   }
   
