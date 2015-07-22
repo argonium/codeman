@@ -86,7 +86,6 @@ public final class EndpointsManager
     }
     
     // Generate the list of endpoints
-    final File file = new File(homeDir, "endpoints.txt");
     try
     {
       // Build a list of the strings in the file
@@ -127,6 +126,7 @@ public final class EndpointsManager
       Collections.sort(points);
       
       // Write any results to file
+      final File file = getOutputFile(homeDir);
       writeEndpoints(points, file);
       
       // Close the input stream
