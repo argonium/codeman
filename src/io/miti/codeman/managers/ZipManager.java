@@ -155,7 +155,7 @@ public final class ZipManager
     final long zipDate = zipFile.lastModified();
     
     // Get the date of the endpoints file
-    final File endFile = new File(outDir, "endpoints.txt");
+    final File endFile = EndpointsManager.getOutputFile(outDir);
     final long endDate = endFile.lastModified();
     
     return (zipDate > endDate);
@@ -303,9 +303,8 @@ public final class ZipManager
     // Index the file
     indexZip();
     
-    // TODO Leave this commented out until the parser is more robust
     // Generate the endpoints file
-    // generateEndpoints();
+    generateEndpoints();
     
     // Restore the cursor
     frame.setCursor(cursor);
@@ -371,11 +370,13 @@ public final class ZipManager
   /**
    * Generate the endpoints file.
    */
-  @SuppressWarnings("unused")
   private void generateEndpoints()
   {
-    // Generate the endpoints.txt file
-    EndpointsManager.getInstance().generate(zipfile, outDir);
+    // TODO We need the output file for checking if indexes are up to date, but
+    // the parser doesn't work very well, so just create an empty file for now
+    // instead of parsing the files
+    // EndpointsManager.getInstance().generate(zipfile, outDir);
+    EndpointsManager.getInstance().writeEndpoints(null, EndpointsManager.getOutputFile(outDir));
   }
   
   
@@ -628,7 +629,7 @@ public final class ZipManager
     else
     {
       // Get the date of the endpoints file
-      final File endFile = new File(outDir, "endpoints.txt");
+      final File endFile = EndpointsManager.getOutputFile(outDir);
       if (!endFile.exists())
       {
         sb.append("The endpoints file was not found\n");
