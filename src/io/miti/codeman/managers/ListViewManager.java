@@ -61,6 +61,7 @@ public final class ListViewManager
   }
   
   
+  @SuppressWarnings("unchecked")
   private void initializeView()
   {
     view = new JPanel(new BorderLayout());
