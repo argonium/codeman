@@ -119,7 +119,9 @@ public final class ZipIndexer
     try
     {
       // Create the query object for searching the file contents
-      final Query query = new QueryParser(Version.LUCENE_41, "text", analyzer).parse(term);
+      final QueryParser queryParser = new QueryParser(Version.LUCENE_41, "text", analyzer);
+      queryParser.setAllowLeadingWildcard(true);
+      final Query query = queryParser.parse(term);
       
       // Create a search for the index
       Directory index  = new SimpleFSDirectory(indexDir);
